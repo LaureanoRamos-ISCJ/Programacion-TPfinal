@@ -1,6 +1,6 @@
 # TP Integrador - Sistema de Login de usuarios
 
-## 📌 Introducción
+## Introducción
 
 ### ¿Qué hace el programa?
 
@@ -29,7 +29,7 @@ Para organizar el funcionamiento del programa, dividimos la aplicación en tres 
 
 ---
 
-## 🏗️ Uso y Creación de Estructuras y Clases
+## Uso y Creación de Estructuras y Clases
 
 ### 1. Clase `Usuarios` (`Usuarios.cs`)
 
@@ -52,7 +52,7 @@ Cada pantalla es una clase que hereda de `Form`. Un detalle importante que imple
 
 ---
 
-## 💾 Guardado y Lectura en el archivo `usuarios.txt`
+## Guardado y Lectura en el archivo `usuarios.txt`
 
 Para que los datos persistan en la computadora, programamos los métodos `Guardar()` y `Cargar()` dentro de `BaseDeDatos.cs` utilizando las herramientas de la librería `System.IO`.
 
@@ -83,7 +83,7 @@ Nombre;Contraseña;Nivel;Id
 
 ---
 
-## 🎯 Conclusión
+## Conclusión
 
 Realizar este Trabajo Práctico Integrador nos permitió unir varios conceptos fundamentales de programación en un proyecto completo y funcional. Pudimos ver en la práctica la utilidad de separar el código en clases como `Usuarios` y `BaseDeDatos`, lo cual nos ahorró repetir código y nos facilitó mucho la comunicación entre los distintos formularios de Windows Forms.
 
